@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+import TypeIt from "typeit-react";
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,8 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+        <TypeIt>pizza.delivers.to/my-home</TypeIt>
         </p>
 
         <div className={styles.grid}>
