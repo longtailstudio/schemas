@@ -16,9 +16,7 @@ export default function Home() {
           Semantics
         </h1>
 
-        <p className={styles.description}>
         <TypeIt>pizza.delivers.to/my-home</TypeIt>
-        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
